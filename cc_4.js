@@ -13,3 +13,11 @@ let totalSales = 0;
 for (let w = 0; w < sales.length; w++)
 {totalSales += sales[w]}
 console.log('Total sales: $${totalSales}'); // Log total sales
+
+// Task 3 - While loop
+let stock = 10; // Declare stock
+while (stock > 0)
+{ console.log('Stock balance: ${stock}'); 
+    stock--; 
+} // Decreasing stock until 0
+console.log("Decrement of stock")
