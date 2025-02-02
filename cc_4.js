@@ -45,3 +45,9 @@ for (let product of products)
 {
     console.log('Product: ${product}');
 }
+
+// Task 7 - Foreach() method
+let orders = [111, 112, 113]; // Array of order IDs
+orders.forEach(order => 
+{console.log('order ID: ${order}')}
+); 
