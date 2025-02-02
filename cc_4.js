@@ -51,3 +51,10 @@ let orders = [111, 112, 113]; // Array of order IDs
 orders.forEach(order => 
 {console.log('order ID: ${order}')}
 ); 
+
+//Task 8 - Function declaring
+function calculateTax(amount, taxRate)
+{return amount * taxRate;
+}
+let tax = calculateTax(100, .07);
+console.log('Tax: $${tax}');
